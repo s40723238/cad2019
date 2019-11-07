@@ -1,17 +1,45 @@
-<h1>Week1-9</h1>
-<p><a href="https://s40723238.github.io/cad2019/content/week1~2.html">week1-2</a></p>
-<h2>week1~2</h2>
+<h1>home</h1>
+<p>week2-5</p>
+<p>week6-9</p>
+<h1>weeks</h1>
+<h2>week2-5</h2>
 <p>1.git clone自己的cad2019倉儲</p>
 <p>2.git submoudle add <a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
 <p>3.python -m pip install flask_cors</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/njzLNhunHEM" width="560"></iframe></p>
-<h2>week3</h2>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/us37KVo8p1U" width="560"></iframe></p>
-<h2>Week5</h2>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/njzLNhunHEM" width="560"></iframe>week3</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/us37KVo8p1U" width="560"></iframe>Week5</p>
 <p>slovespace</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/r3D_LMT5BWM" width="560"></iframe></p>
-<h2>week6</h2>
+<h2>week6-9</h2>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Xxze9JlbTfg" width="560"></iframe></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dr3Woj2ScV0" width="560"></iframe></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/RR7HWXpZn1M" width="560"></iframe></p>
-<h2>week10-18</h2>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/RR7HWXpZn1M" width="560"></iframe>week7</p>
+<p><br/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Twe58mC8bBQ" width="560"></iframe>about</p>
+<div id="tipue_search_content">
+<h1>About</h1>
+<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
+<h4>利用 cmsimde 建立靜態網誌方法:</h4>
+<p>1. 在 github 建立倉儲, git clone 到近端</p>
+<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
+<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
+<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
+<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
+<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
+<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
+<p>git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<br/>week15~18 &lt;&lt;<span> </span><a href="https://s40723209.github.io/cad2019/content/week15~18.html">Previous</a><span> </span><a href="https://s40723209.github.io/cad2019/content/Develop.html">Next</a><span> </span>&gt;&gt; Develop</div>
+<div class="container">
+<p>Copyright ©2019 All rights reserved | This template is made with<span> </span><i aria-hidden="true" class="icon-heart"></i><span> </span>by<span> </span><a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+<h1>Develop</h1>
+<div id="tipue_search_content">
+<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
+<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
+<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
+<p><strong></strong></p>
+<br/>About &lt;&lt;<span> </span><a href="https://s40723209.github.io/cad2019/content/About.html">Previous</a></div>
+<div class="container">
+<div class="row pt-3 mx-auto">
+<p>Copyright ©2019 All rights reserved | This template is made with<span> </span><i aria-hidden="true" class="icon-heart"></i><span> </span>by<span> </span><a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+</div>
+</div>
+</div>
