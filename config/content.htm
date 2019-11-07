@@ -13,12 +13,52 @@
 <p>slovespace</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/r3D_LMT5BWM" width="560"></iframe></p>
 <h2>week6-9</h2>
+<p>week6</p>
+<p>畫自走車模型</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Xxze9JlbTfg" width="560"></iframe></p>
+<p>v-rep模擬</p>
+<p><span><span>1.從下載下來的web_vrep2中app.py用編輯器開啟</span></span></p>
+<p><span><br/><span>2.從下載下來的路徑V-REP3\V-REP_PRO_EDU中找到vrep.exe</span></span></p>
+<p><span><br/><span>3.用v_rep中的file的open scene將下載下來的web_vrep2中two_wheeler.ttt打開</span></span></p>
+<p><span><br/><span>4.剛剛編輯器開啟之app.py使用編輯器的tool中的go將其控制器開啟</span></span></p>
+<p><span><span>5.使用<span>localhost:</span></span>5000<span>將控制器開啟</span></span></p>
+<p><span><br/><span>6.運用控制器的前後左右測試是否可以控制車子</span></span></p>
+<p><span><br/><span>7.v-rep必須要將右上方開始鈕按下</span></span></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dr3Woj2ScV0" width="560"></iframe></p>
+<p>v-rep加入start跟stop鍵</p>
+<p>1.將mde_course打開</p>
+<p><br/>2.用編輯器開啟<span>templates</span>中的<span>controls.html</span></p>
+<p><br/>3.在第19行打上從下方向左按鈕指令複製來的指令並且將其改寫成start和stop</p>
+<p><br/>4.因為有start和stop兩個按鈕所以必須要放置兩行指令</p>
+<p><span>指令:</span>&lt;td&gt;&lt;a class="pure-button pure-button-primary" href="/do/start"&gt;start&lt;/a&gt;&lt;/td&gt;&lt;a class="pure-button pure-button-primary" href="/do/stop"&gt;stop&lt;/a&gt;&lt;/td&gt;</p>
+<p><br/>5.結束後儲存並且用上方tool中的go測試是否已將按鈕放入</p>
+<p><br/>6.用編輯器開啟<span>vrep_linefollower</span>定義其中開始和結束按鈕</p>
+<p><span>指令:</span>if direction == 'start':<br/>vrep.simxStartSimulation(self.clientID, vrep.simx_opmode_oneshot)<br/>elif direction == 'stop':<br/>vrep.simxStopSimulation(self.clientID, vrep.simx_opmode_oneshot)<br/>else :</p>
+<p><br/>7.到課程網站中的老師倉儲中尋找issue</p>
+<p><br/>8.其中有一項issue為置入start和stop按鈕的指令</p>
+<p><br/>9.複製並且依照影片中將其貼上</p>
+<p><br/>10.在每行指令前定義好所需的指令例如:(if else elif)</p>
+<p><br/>11.打開<span>vrep.exe</span>並且用編輯器打開<span>app.py</span>並執行tool中的go</p>
+<p><br/>12.測試是否有成功運行</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/RR7HWXpZn1M" width="560"></iframe>week7</p>
+<p>solvespace編譯-更改help-about</p>
+<p>1.開啟solvespace.cpp找到952行在solvespace後方加上compiled by 自己的學號</p>
+<p>2.刪除舊的這個路徑中201906_fall\tmp\solvespace\build\src\CMakeFiles的solvespace.cpp.obj檔，此檔案若無刪除solvespace就只會讀取這個舊有的檔案</p>
+<p>3.進入solvespace資料夾中的這個資料夾用指令cd build</p>
+<p>4.在黑窗中打上mingw32-make</p>
+<p>5.開啟solvespace</p>
+<p>6.在help中的about是否有compiled by 自己學號<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/xWEzqaQUu0A" width="560"></iframe></p>
+<p>slovespace繪圖驗證</p>
 <p><br/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Twe58mC8bBQ" width="560"></iframe>about</p>
-<div id="tipue_search_content">
-<h1>About</h1>
+<div id="tipue_search_content">week8</div>
+<div>
+<p><span color="#ff0000"><b>開啟網誌:</b></span></p>
+<p><span color="#ff0000">(1)將leo edit開起來</span></p>
+<p><span color="#ff0000">(2)將config中的pelican.leo丟入leo edit裡面</span></p>
+<p><span color="#ff0000">(3)修改影片中有講的路徑中的siteurl更改成自己blog網址</span></p>
+<p><span color="#ff0000">(4)依照影片中的步驟將指令複製並在黑窗中執行</span></p>
+</div>
+<div><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/bPRmPJsoNyU" width="560"></iframe></div><h1>About</h1>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>
 <p>1. 在 github 建立倉儲, git clone 到近端</p>
@@ -29,7 +69,7 @@
 <p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
 <p>git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
-<br/>week15~18 &lt;&lt;<span> </span><a href="https://s40723209.github.io/cad2019/content/week15~18.html">Previous</a><span> </span><a href="https://s40723209.github.io/cad2019/content/Develop.html">Next</a><span> </span>&gt;&gt; Develop</div>
+<br/>week15~18 &lt;&lt;<span> </span><a href="https://s40723209.github.io/cad2019/content/week15~18.html">Previous</a><span> </span><a href="https://s40723209.github.io/cad2019/content/Develop.html">Next</a><span> </span>&gt;&gt; Develop
 <div class="container">
 <p>Copyright ©2019 All rights reserved | This template is made with<span> </span><i aria-hidden="true" class="icon-heart"></i><span> </span>by<span> </span><a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
 <h1>Develop</h1>
