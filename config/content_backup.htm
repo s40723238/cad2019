@@ -17,9 +17,39 @@
 <p>畫自走車模型</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Xxze9JlbTfg" width="560"></iframe></p>
 <p>v-rep模擬</p>
+<p><span><span>1.從下載下來的web_vrep2中app.py用編輯器開啟</span></span></p>
+<p><span><br/><span>2.從下載下來的路徑V-REP3\V-REP_PRO_EDU中找到vrep.exe</span></span></p>
+<p><span><br/><span>3.用v_rep中的file的open scene將下載下來的web_vrep2中two_wheeler.ttt打開</span></span></p>
+<p><span><br/><span>4.剛剛編輯器開啟之app.py使用編輯器的tool中的go將其控制器開啟</span></span></p>
+<p><span><span>5.使用<span>localhost:</span></span>5000<span>將控制器開啟</span></span></p>
+<p><span><br/><span>6.運用控制器的前後左右測試是否可以控制車子</span></span></p>
+<p><span><br/><span>7.v-rep必須要將右上方開始鈕按下</span></span></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dr3Woj2ScV0" width="560"></iframe></p>
-<p>v-rep加入start跟stop鍵<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/RR7HWXpZn1M" width="560"></iframe>week7</p>
-<p>slovespace繪圖驗證<br/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Twe58mC8bBQ" width="560"></iframe>about</p>
+<p>v-rep加入start跟stop鍵</p>
+<p>1.將mde_course打開</p>
+<p><br/>2.用編輯器開啟<span>templates</span>中的<span>controls.html</span></p>
+<p><br/>3.在第19行打上從下方向左按鈕指令複製來的指令並且將其改寫成start和stop</p>
+<p><br/>4.因為有start和stop兩個按鈕所以必須要放置兩行指令</p>
+<p><span>指令:</span>&lt;td&gt;&lt;a class="pure-button pure-button-primary" href="/do/start"&gt;start&lt;/a&gt;&lt;/td&gt;&lt;a class="pure-button pure-button-primary" href="/do/stop"&gt;stop&lt;/a&gt;&lt;/td&gt;</p>
+<p><br/>5.結束後儲存並且用上方tool中的go測試是否已將按鈕放入</p>
+<p><br/>6.用編輯器開啟<span>vrep_linefollower</span>定義其中開始和結束按鈕</p>
+<p><span>指令:</span>if direction == 'start':<br/>vrep.simxStartSimulation(self.clientID, vrep.simx_opmode_oneshot)<br/>elif direction == 'stop':<br/>vrep.simxStopSimulation(self.clientID, vrep.simx_opmode_oneshot)<br/>else :</p>
+<p><br/>7.到課程網站中的老師倉儲中尋找issue</p>
+<p><br/>8.其中有一項issue為置入start和stop按鈕的指令</p>
+<p><br/>9.複製並且依照影片中將其貼上</p>
+<p><br/>10.在每行指令前定義好所需的指令例如:(if else elif)</p>
+<p><br/>11.打開<span>vrep.exe</span>並且用編輯器打開<span>app.py</span>並執行tool中的go</p>
+<p><br/>12.測試是否有成功運行</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/RR7HWXpZn1M" width="560"></iframe>week7</p>
+<p>solvespace編譯-更改help-about</p>
+<p>1.開啟solvespace.cpp找到952行在solvespace後方加上compiled by 自己的學號</p>
+<p>2.刪除舊的這個路徑中201906_fall\tmp\solvespace\build\src\CMakeFiles的solvespace.cpp.obj檔，此檔案若無刪除solvespace就只會讀取這個舊有的檔案</p>
+<p>3.進入solvespace資料夾中的這個資料夾用指令cd build</p>
+<p>4.在黑窗中打上mingw32-make</p>
+<p>5.開啟solvespace</p>
+<p>6.在help中的about是否有compiled by 自己學號<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/xWEzqaQUu0A" width="560"></iframe></p>
+<p>slovespace繪圖驗證</p>
+<p><br/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Twe58mC8bBQ" width="560"></iframe>about</p>
 <div id="tipue_search_content">week8</div>
 <div>
 <p><span color="#ff0000"><b>開啟網誌:</b></span></p>

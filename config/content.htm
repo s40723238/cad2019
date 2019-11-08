@@ -9,10 +9,31 @@
 <p>2.git submoudle add <a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
 <p>3.python -m pip install flask_cors</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/njzLNhunHEM" width="560"></iframe>week3</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/us37KVo8p1U" width="560"></iframe>Week5</p>
-<p>slovespace</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/r3D_LMT5BWM" width="560"></iframe></p>
-<h2>week6-9</h2>
+<p>solvespace編譯</p>
+<p>1.<span>Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe。</span></p>
+<p>2.查驗github版本(2.13以上)。</p>
+<p>3.<span> git clone </span><span>--recurse-submodules。</span></p>
+<p><span>4.編輯cmakelist內之713及714行(加入#字號)。</span></p>
+<p>5.<span>cd solvespace&gt;cd extlib&gt;cd libpng&gt;mkdir build&gt;cd build。</span></p>
+<p><span>6.執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/><span>mingw32-make。</span></span></p>
+<p>7.進行<span> libpng.dll.a 更名, 更名名為 libpng_static.a。</span></p>
+<p><span>8.回到 solvespace 原始碼目錄,建立 build 目錄後進入 build 目錄。</span></p>
+<p><span>9.在一次執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/><span>mingw32-make。</span></span></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/us37KVo8p1U" width="560"></iframe></p>
+<p>week4</p>
+<p>趕上先前的進度</p>
+<p>Week5</p>
+<p>solvespace繪圖練習</p>
+<p>1.運用左方工作區繪製出長方形。</p>
+<p>2.點選線並且運用快捷鍵D標註尺寸如:長度40 寬度30。</p>
+<p>3.繪製長方形參照線，點選線後運用快捷鍵G即可以繪製出綠色參照線。</p>
+<p>4.繪製圓形孔，繪製完後四個孔之孔徑均不相同。</p>
+<p>5.按下兩孔並且用快捷鍵Q使其孔徑一致其他孔也是一樣方式。</p>
+<p>6.運用前述的快捷鍵D標註孔之尺寸。</p>
+<p>7.運用SHIFT加X使其拉伸並且輸入想要的厚度。</p>
+<p>8.若要看正視圖可以使用W，W判定的標準是以游標最接近的面去做正視。</p>
+<p>9.若要看到等角圖則可以使用F3使其回到等角圖的樣子。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/r3D_LMT5BWM" width="560"></iframe></p><h2>week6-9</h2>
 <p>week6</p>
 <p>畫自走車模型</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Xxze9JlbTfg" width="560"></iframe></p>
