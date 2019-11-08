@@ -303,8 +303,9 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20191108131107.2">week8建立webot開啟檔案:
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/nP75yCdNXKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="280" height="157" src="https://www.youtube.com/embed/nP75yCdNXKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 開啟網誌
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/bPRmPJsoNyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="280" height="157" src="https://www.youtube.com/embed/bPRmPJsoNyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
