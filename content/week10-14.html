@@ -155,7 +155,124 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">week6-9 << <a href='week6-9.html'>Previous</a> <a href='cad_history第18章.html'>Next</a> >> cad_history第18章<br /><h1>week10-14</h1>
+<p><span id="title" title="NX 12 for Engineering Design"><span>NX 12 for Engineering Design</span></span></p>
+<p><span title="NX 12 for Engineering Design"><span>在本章中，您將學習如何在NX 12中創建自由曲面。至此，您已經學習了使用“表單特徵”或“草圖繪製”創建模型的不同方法。</span></span></p>
+<p><span title="NX 12 for Engineering Design"><span><img alt="" height="249" src="./../images/chrome_nRRajLVO9w.png" width="390"/></span></span></p>
+<p><span title="NX 12 for Engineering Design"><span></span></span></p>
+<div id="pageselector-container"><viewer-page-selector class="" id="pageselector">
+<div id="pageselector-container"><cr-input aria-disabled="false" aria-label="頁碼" id="pageselector" tabindex="0">
+<div id="row-container" part="row-container">
+<div id="input-container">
+<div id="inner-input-container"><slot name="prefix"></slot></div>
+</div>
+</div>
+</cr-input></div>
+</viewer-page-selector></div>
 <p><a href="https://s40723238.github.io/cad2019/content/cad_history%E7%AC%AC18%E7%AB%A0.html">cad_history第18章</a></p>
+<p><span>7.1</span>概述</p>
+<p>在<span>NX 12</span>中，“自由格式功能”選項位於菜單→插入→表面<span>/</span>網格表面<span>/</span>掃描<span>/</span>法蘭表面和菜單→編輯→表面等不同位置，以進行更高級的操作。</p>
+<p><span>7.1.1</span>從點創建自由特徵</p>
+<p>如果您要構造或預先存在的數據僅包含點，則可以嘗試使用以下三個選項之一從給定點構建曲面。</p>
+<p>按<span> Menu, </span>按<span>Insert → Surface</span></p>
+<p><span>Four Point Surface: </span>如果您有四個角點。</p>
+<p><span>Through Points: </span>如果這些點形成一個矩形陣列。</p>
+<p><span>From Poles: </span>如果定義的點形成與通過它們的線相切的矩形陣列。</p>
+<p><img alt="" height="142" src="./../images/chrome_Ucx6a1NfEF.png" width="41"/></p>
+<p><span>7.1.2</span>通過節字符串創建自由格式特徵</p>
+<p>如果構造幾何包含連接對象（曲線和邊）的字符串，則可以使用以下兩個選項之一來創建自由曲面。</p>
+<p>按<span> Menu, </span>按<span> Insert → Mesh Surface</span></p>
+<p><span><img alt="" height="42" src="./../images/chrome_arnh1EuY49.png" width="46"/></span><span>Ruled: </span>如果您有兩個大致平行的字符串</p>
+<p><img alt="" height="35" src="./../images/chrome_iSWrOPgDpP.png" width="43"/><span>Through Curves:</span>如果三個或更多字符串大致平行。</p>
+<p><img alt="" height="50" src="./../images/chrome_Khkkc2s5xb.png" width="47"/>Through Curve Mesh: 如果在每個方向（平行和垂直）上至少有四個弦且至少有兩個弦，則使用此命令。</p>
+<p><img alt="" height="49" src="./../images/chrome_3mYBy1pmJm.png" width="41"/><span>Swept: </span>如果至少兩個部分字符串大致相同，則使用垂直</p>
+<p><span>7.1.3</span>從面孔創建自由特徵</p>
+<p>如果構造幾何包含圖紙或面，則可以使用以下兩個選項之一來構造自由曲面。</p>
+<p><img alt="" height="48" src="./../images/chrome_vlZ3DTkrWk.png" width="41"/><span>Offset Surface: </span>如果您要偏移面，請使用此選項。</p>
+<p><img alt="" height="37" src="./../images/chrome_sDQN5mZrIn.png" width="44"/><span>Extension: </span>如果您有邊曲線或曲線，請使用此選項。</p>
+<p><span>7.2</span>自由格式功能建模</p>
+<p>讓我們來進行一些自由結構建模的練習，其中包括結構化點，點雲，曲線和麵。</p>
+<p>打開文件<span>freeform_thrupoints.pr</span></p>
+<p>右鍵單擊工具欄，並確保已選中“曲面工具欄”</p>
+<p><img alt="" height="216" src="./../images/chrome_BSKKWDYfNa.png" width="318"/></p>
+<p>您將看到七行點。</p>
+<p>選<span>Insert →Surface →Through Points</span></p>
+<p>對話框如下圖所示彈出。</p>
+<p><span>Patch Type, </span>選<span> Multiple</span></p>
+<p><span>Closed Along,<span> </span></span>選<span><span> </span>Neither</span></p>
+<p><span>Row Degree and Column Degree,<span> </span></span>都選<span><span> </span>3.</span></p>
+<p>按下<span><span> </span>OK</span></p>
+<p><img alt="" height="397" src="./../images/chrome_afcECulchk.png" width="260"/></p>
+<p><span></span></p>
+<p>下一個對話框將如上圖所示</p>
+<p>按<span>Chain from All</span></p>
+<p>選擇最左行的頂部起點和底部終點，如下圖所示</p>
+<p><img alt="" height="251" src="./../images/chrome_cJPaQELkOR.png" width="385"/></p>
+<p>點的第一行將突出顯示。</p>
+<p>重複相同的過程以選擇點的前四行。</p>
+<p>之後，將彈出一個窗口，詢問是否指定了所有點或是否要指定另一行。</p>
+<p><img alt="" height="129" src="./../images/chrome_qMh5YMRfui.png" width="285"/></p>
+<p>按<span> Specify Another Row </span>直到所有行都被指定的</p>
+<p>指定所有行後，選擇“<span>All Points Specified</span>”</p>
+<p>在“<span>Through Points</span>”窗口上單擊“<span>Cancel</span>”</p>
+<p>您將看到如下所示的表面。</p>
+<p><img alt="" height="211" src="./../images/chrome_Ufy7SHgtal.png" width="336"/></p>
+<p><span>7.2.2</span>使用點雲建模</p>
+<p>打開名為<span>freeform_cloud.prt</span>的文件</p>
+<p>點雲將如下所示。</p>
+<p><img alt="" height="255" src="./../images/chrome_L6GeEAcC9p.png" width="408"/></p>
+<p>按<span>Insert → Surface → Fit Surface</span></p>
+<p>將出現以下對話框。</p>
+<p><img alt="" height="505" src="./../images/chrome_Uo7Zqal7nl.png" width="244"/></p>
+<p>單擊屏幕上的，選擇屏幕上的所有點點雲。</p>
+<p>在<span>Fit Direction</span>下拉菜單中，選擇<span>Best Fit</span>。 這使點雲坐標係與原始系統匹配</p>
+<p>將<span>U</span>度和<span>V</span>度的默認值更改為<span>3</span></p>
+<p>按<span> OK</span></p>
+<p><span>最終表面將如下所示。</span></p>
+<p><span><img alt="" height="287" src="./../images/chrome_nPHbF7er5S.png" width="437"/></span></p>
+<p><span>7.2.3</span>使用曲線建模</p>
+<p>打開名為<span>freeform_thrucurves_parameter.prt</span>的文件</p>
+<p>曲線如下圖所示</p>
+<p><img alt="" height="202" src="./../images/chrome_ldIDoMygCY.png" width="390"/></p>
+<p>按下<span> Insert → Mesh Surface → Through Curves</span></p>
+<p>選擇第一個<span>section string</span>，如下所示。 確保選擇圓弧左側的某個位置。</p>
+<p>方向矢量顯示在字符串的末尾。</p>
+<p><img alt="" height="133" src="./../images/chrome_17eAUArYqs.png" width="309"/></p>
+<p>單擊鼠標中鍵<span>MB2</span>或單擊<span>Add New Set</span></p>
+<p>單擊與第一個相似的下一條曲線，然後單擊鼠標中鍵MB2。 您可以看到兩條</p>
+<p>曲線之間生成的曲面，如下圖所示</p>
+<p><img alt="" height="145" src="./../images/chrome_2dHUEGk7vi.png" width="308"/></p>
+<p>重複相同的過程以選擇其餘的字符串。 選擇每條曲線後，請記住單擊<span>MB2</span>（或“<span>Add New Set</span>”）</p>
+<p><span>Alignment, </span>按<span> Parameter</span></p>
+<p><span>Patch Type, </span>按<span> Single</span></p>
+<p><span>Construction, </span>按<span> Simple</span></p>
+<p>當選擇“簡單”選項時，系統將嘗試構建盡可能簡單的表面並最小化面片的數量。</p>
+<p>按<span>OK</span></p>
+<p><span><img alt="" height="567" src="./../images/chrome_WW1ycWHQZA.png" width="249"/><img alt="" height="135" src="./../images/chrome_YGe0gr2pYs.png" width="241"/></span></p>
+<p><span>7.2.4</span>使用曲線和面建模</p>
+<p>打開名為<span>freeform_thrucurves_faces.prt</span>的文件</p>
+<p><img alt="" height="271" src="./../images/chrome_b9N8ItWg9u.png" width="333"/></p>
+<p>曲線和面將如上圖所示</p>
+<p>按<span> Insert →Mesh Surface →Through Curves</span></p>
+<p>選擇頂面的<span>edge1</span></p>
+<p>選擇<span>edge-2</span>，然後單擊<span>MB2</span></p>
+<p>選擇<span>edge-3</span></p>
+<p>在對話框的“<span>Alignment</span>”部分下，取消選中“<span>Alignment</span>”複選框</p>
+<p>您將在屏幕上顯示以下形狀。</p>
+<p><img alt="" height="230" src="./../images/chrome_8D4UNtAXPb.png" width="308"/></p>
+<p>確保所有箭頭都指向相同的方向（如果不是，請雙擊任意一個箭頭以反轉其方向）。</p>
+<p>在“<span>Alignment</span>”對話框中，選擇“<span>Parameter</span>”</p>
+<p>在“<span>Continuity</span>”對話框的“<span>for First Section</span>”中，選擇“<span> G2</span>（<span>Curvature)</span>”選項，然後選擇頂面的兩個色塊。</p>
+<p>按<span> APPLY</span></p>
+<p><span><img alt="" height="263" src="./../images/chrome_W0ZfmxpywW.png" width="369"/></span></p>
+<p>現在選擇<span>edge-3</span>，然後單擊<span>MB2</span></p>
+<p>選擇下平面的三個邊緣</p>
+<p>在“<span>for First Section</span>”的“<span>Continuity</span>”對話框中將選項更改為<span>G2</span>（<span>Curvature</span>）</p>
+<p>選擇剛創建的表面，然後單擊<span>MB2</span>。</p>
+<p>對於“<span>Continuity</span>”的<span>”Last Section”</span>，選擇“<span> G2</span>（<span>Curvature</span>）”，然後選擇底部的三個色塊作為參考</p>
+<p>單擊<span>OK</span>退出</p>
+<p>最終的自由曲面應如下所示</p>
+<p></p>
+<p></p>
 <p><a href="https://s40723238.github.io/cad2019/content/cad_history%E7%AC%AC19%E7%AB%A0.html">cad_history第19章</a></p>
 <p><a href="https://s40723238.github.io/cad2019/content/cad_history%E7%AC%AC20%E7%AB%A0.html">cad_history第20章</a></p><br />week6-9 << <a href='week6-9.html'>Previous</a> <a href='cad_history第18章.html'>Next</a> >> cad_history第18章</div>
         
