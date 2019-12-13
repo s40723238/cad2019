@@ -36,6 +36,9 @@
 <v t="leo.20191108131100.1"><vh>7</vh>
 <v t="leo.20191108131100.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20191212223312.1"><vh>8</vh>
+<v t="leo.20191212223312.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20191108131107.1"><vh>8</vh>
 <v t="leo.20191108131107.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -302,10 +305,22 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191108131107.2">week8建立webot開啟檔案:
+<t tx="leo.20191108131107.2">week13webot
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/0TaY6KE98nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191212223312.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191212223312.2">week81.建立webot開啟檔案:
 &lt;iframe width="280" height="157" src="https://www.youtube.com/embed/nP75yCdNXKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
-開啟網誌
+2.開啟網誌
 &lt;iframe width="280" height="157" src="https://www.youtube.com/embed/bPRmPJsoNyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
