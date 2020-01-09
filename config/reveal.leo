@@ -86,9 +86,9 @@
 </t>
 <t tx=".20200109182823.2">week14webot tutorial2
 &lt;iframe width="280" height="157" src="https://www.youtube.com/embed/oTOhTWKrAaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 tutorial3
 &lt;iframe width="280" height="157" src="https://www.youtube.com/embed/JptaQ_XZuB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
- allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx=".20200109182826.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -101,7 +101,6 @@ tutorial3
 </t>
 <t tx=".20200109182826.2">week15回報
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/8cipJECIQa4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx=".20200109182829.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -113,8 +112,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 						
 </t>
 <t tx=".20200109182829.2">week16test
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/23344G_gs5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt; allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/23344G_gs5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt; </t>
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.10">## 40723238 cad2019
 
@@ -370,9 +368,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20191108131107.2">week17test
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WjpM5M4Hr90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
- allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WjpM5M4Hr90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191212223312.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -385,6 +381,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20191212223312.2">week8
 1.建立webot開啟檔案:
 &lt;iframe width="280" height="157" src="https://www.youtube.com/embed/nP75yCdNXKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 2.開啟網誌
 &lt;iframe width="280" height="157" src="https://www.youtube.com/embed/bPRmPJsoNyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
