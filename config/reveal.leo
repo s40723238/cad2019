@@ -54,6 +54,9 @@
 <v t="leo.20191108131107.1"><vh>17</vh>
 <v t="leo.20191108131107.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200110142303.1"><vh>18</vh>
+<v t="leo.20200110142303.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -384,5 +387,16 @@ vertical: body pane on the botton</t>
 
 2.開啟網誌
 &lt;iframe width="280" height="157" src="https://www.youtube.com/embed/bPRmPJsoNyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110142303.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110142303.2">week18期末
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M0UmfW1jHww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
